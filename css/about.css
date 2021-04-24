@@ -1,0 +1,174 @@
+/*fonts*/
+
+.script{
+  font-family: "Dancing Script", cursive;
+}
+body{
+  font-family: "Open Sans", Arial, sans-serif;
+}
+h2{
+  font-size: 72px;
+  font-weight: normal;
+}
+h3{
+  font-size: 48px;
+  font-weight: normal;
+}
+h5{
+  font-size: 36px;
+  font-weight: normal;
+}
+h6{
+  font-size: 24px;
+  font-weight: normal;
+}
+p{
+  font-size: 18px;
+  font-weight: normal;
+}
+#leading{
+	margin-top: -75px;
+}
+#shortline{
+	margin-top: -25px;
+}
+/* Navigation */
+
+header{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 89px;
+padding-bottom: 40px;
+	
+}
+nav{
+  width: 1075px;
+  height: 89px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.navset{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  text-align: center;
+
+}
+.logo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 15px;
+
+}
+.margin{
+  margin: 25px;
+}
+/*hero*/
+.iconalign {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 16px;
+}
+#herogrid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 1;
+	grid-template-areas: 
+		"texthero imageshero";
+}
+.herobackground{
+    background-color: rgba(207, 208, 211, 0.5);
+    flex-direction: row;
+}
+.buttongroup{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding-bottom: 20px;
+	
+}
+.hero{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 490px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.icons{
+  margin: 15px;
+}
+#textbutton{
+	margin-right: 5px;
+}
+#contactbutton{
+	margin-left: 10px;
+}
+.longbutton{
+  width: 294px;
+  height: 54px;
+  border-radius: 30px;
+  background-color: #58585d;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+.longbuttontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.shortbutton{
+  width: 190px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #cfd0d3;
+}
+.shortbutttontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+.imagebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 620px;
+}
+.image{
+ display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 24px 0px 10px 5px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25);
+}
+/*footer*/
+.try{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.footerrule{
+ margin: 63px 100px 22px 100px;
+  width: 1270px;
+  color: #B8BAC0;
+  border: 1.5px solid #B8BAC0;
+  border-radius: 100px;
+}
+.footericons{
+  margin-left: 15px;
+}
+.copyright{
+  padding-right:620px;
+}
+
