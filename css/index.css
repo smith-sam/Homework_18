@@ -30,6 +30,12 @@ p{
   font-size: 18px;
   font-weight: normal;
 }
+.leading{
+margin-top: -70px;
+}
+.smleading{
+margin-top: -45px;
+}
 
 /*Navigation*/
 header{
@@ -49,7 +55,7 @@ margin-left: 100px;
 .navset{
   margin-top: 35px;
   margin-bottom: 25px;
-  margin-left: 20px;
+  margin-left: 30px;
   text-align: center;
 
 }
@@ -57,9 +63,118 @@ margin-left: 100px;
 display: flex;
 align-content: center;
 justify-content: flex-start;
-margin-right: 253px;
+margin-right: 190px;
+}
+	/*main*/
+.icons{
+  margin: 0px 15px;
+}
+/*First Section*/
+#herogrid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 1;
+	grid-template-areas: 
+		"texthero skillshero";
+}
+.herobackground{
+	width: 1440px;
+    background-color: rgba(207, 208, 211, 0.5);
+    flex-direction: row;
+}
+#texthero{
+	
 }
 
+#skillshero{
+	
+}
+
+/*Other Section*/
+#studygrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-areas: 
+	  "packitimg packittext"
+	  "edtext edimg"
+	  "pettext petimg";
+  height: 1670px;
+  width: 1260px;
+}
+.shortbutton{
+  width: 150px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #e5e5e5;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25);
+  margin: 20px 0px;
+}
+.darkshortbutton{
+  width: 150px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #58585d;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25);
+  margin: 20px 0px;
+}
+.shortbuttontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+.darkshortbuttontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.gimg{
+ display: flex;
+
+}
+.gtext{
+display: flex;
+align-content: flex-start;
+justify-content: center;
+flex-direction: column;
+}
+
+/*footer*/
+footer{
+	width: 1440px;
+	height: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.footerrule{
+  display: flex;
+  justify-content: center;
+  margin: 15px 100px 0px 100px;
+  width: 1030px;
+  color: #B8BAC0;
+  border: 1.5px solid #B8BAC0;
+  border-radius: 100px;
+}
+.copyright{
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+  width: 500px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+	.footericons{
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin-right: 210px;
+
+}
 
 @media (max-device-width:600px){
 	p{font-size: 14px;
@@ -91,4 +206,6 @@ display: flex;
 align-content: center;
 justify-content: flex-end;
 }
+	
+
 }
