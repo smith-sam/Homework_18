@@ -176,36 +176,9 @@ footer{
 
 }
 
-@media (max-device-width:600px){
-	p{font-size: 14px;
+@media screen and (max-width:600px){
+	p{
+	 font-size: 14px;
+	 font-weight: normal;
 	}
-		/*Navigation*/
-header{
- width: 600px;
- height: 126px;
-}
-nav{
-display: flex;
-align-content: center;
-justify-content: center;
-padding-top: 44px;
-padding-bottom: 20px;
-margin-right: 25px;
-margin-left: 25px;
-}
-
-.navset{
-  margin-top: 35px;
-  margin-bottom: 25px;
-  margin-left: 20px;
-  text-align: center;
-
-}
-.logo{
-display: flex;
-align-content: center;
-justify-content: flex-end;
-}
-	
-
 }
