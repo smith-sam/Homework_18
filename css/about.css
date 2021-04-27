@@ -139,7 +139,6 @@ margin-right: 190px;
 }
 
 /*footer*/
-/*footer*/
 footer{
 	width: 1440px;
 	height: 100px;
@@ -173,7 +172,8 @@ footer{
 }
 
 
-@media only screen and (device-width:600px){
+@media screen and (max-width:600px){
+	
 	p{
 	font-size: 14px;
 	font-weight: normal;
