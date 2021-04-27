@@ -172,3 +172,10 @@ footer{
 
 }
 
+
+@media only screen and (device-width:600px){
+	p{
+	font-size: 14px;
+	font-weight: normal;
+	}
+}
