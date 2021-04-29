@@ -191,35 +191,33 @@ footer{
 
 @media screen and (max-width:375px){
 	/*Navigation*/
-header{
- width: 375px;
+ header{
  height: 126px;
 }
 nav{
 display: flex;
 align-content: center;
 justify-content: center;
+width: 375px;
+height: 176px;
 }
 .menu{
  display: flex;
  align-content: flex-end;
  justify-content: center;
  visibility: visible;
- 
+ margin-right: 840px;
+ margin-top: 12px;
 }
 
 .navset{
   visibility: hidden;
-  margin-top: 35px;
-  margin-bottom: 25px;
-  margin-left: 30px;
-  text-align: center;
-
 }
 .logo{
 display: flex;
 align-content: center;
 justify-content: flex-start;
+
 }
 .images{
 width: 100%;
