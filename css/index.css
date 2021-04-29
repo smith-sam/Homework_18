@@ -51,6 +51,13 @@ padding-bottom: 25px;
 margin-right: 100px;
 margin-left: 100px;
 }
+.menu{
+display: flex;
+align-content: flex-end;
+justify-content: center;
+visibility: hidden;
+ 
+}
 
 .navset{
   margin-top: 35px;
@@ -65,6 +72,12 @@ align-content: center;
 justify-content: flex-start;
 margin-right: 190px;
 }
+
+.images{
+width: 100%;
+max-width: 147.2px;
+height: 75%;	
+	}
 	/*main*/
 .icons{
   margin: 0px 15px;
@@ -176,7 +189,43 @@ footer{
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:375px){
+	/*Navigation*/
+header{
+ width: 375px;
+ height: 126px;
+}
+nav{
+display: flex;
+align-content: center;
+justify-content: center;
+}
+.menu{
+ display: flex;
+ align-content: flex-end;
+ justify-content: center;
+ visibility: visible;
+ 
+}
+
+.navset{
+  visibility: hidden;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  text-align: center;
+
+}
+.logo{
+display: flex;
+align-content: center;
+justify-content: flex-start;
+}
+.images{
+width: 100%;
+max-width: 101px;
+height: 75%;	
+	}
 	p{
 	 font-size: 14px;
 	 font-weight: normal;
