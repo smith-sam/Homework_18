@@ -39,68 +39,59 @@ margin-top: -45px;
 
 /*Navigation*/
 header{
- width: 1440px;
- height: 160px;
+
 }
 nav{
 display: flex;
+justify-content: flex-start;
 align-content: center;
-justify-content: center;
 padding-top: 25px;
-padding-bottom: 25px;
 margin-right: 100px;
 margin-left: 100px;
+width: 1440px;
 }
 .menu{
-display: flex;
-align-content: flex-end;
-justify-content: center;
+position: absolute;
+z-index: 1;
+margin: 28px;
 visibility: hidden;
 
 }
 
-.navset{
-  margin-top: 35px;
-  margin-bottom: 25px;
-  margin-left: 30px;
+.set{
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+  padding: 5px 5px 10px 35px;
   text-align: center;
-
+  margin-top: 25px;
 }
 .logo{
 display: flex;
-align-content: center;
+align-content: flex-start;
 justify-content: flex-start;
-margin-right: 190px;
+margin-right: 75px;
 }
 
 .images{
-width: 100%;
-max-width: 147.2px;
-height: 75%;
+width: 147.2px;
+height: 89px;
 	}
 	/*main*/
 .icons{
   margin: 0px 15px;
 }
 /*First Section*/
-#herogrid{
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 1;
-	grid-template-areas:
-		"texthero skillshero";
-}
 .herobackground{
-	width: 1440px;
+	width: 100%;
     background-color: rgba(207, 208, 211, 0.5);
     flex-direction: row;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 #texthero{
-
-}
-
-#skillshero{
-
+text-align: left;
+padding: 0px 850px 0px 150px;
 }
 
 /*Other Section*/
@@ -114,6 +105,46 @@ height: 75%;
 	  "pettext petimg";
   height: 1670px;
   width: 1260px;
+  padding: 56px 100px;
+}
+#packitimg{
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-end;
+	margin-right: 20px;
+	padding-top: 50px;
+}
+#packittext{
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-end;
+	margin-left: 20px;
+	padding-right: 50px;
+}
+#edimg{
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+	padding-top: 35px;
+}
+#edtext{
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+#petimg{
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-end;
+	margin-right: 10px;
+	padding-top: 50px;
+}
+#pettext{
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-end;
+	margin-left: 20px;
+	padding-right: 60px;
 }
 .shortbutton{
   width: 150px;
@@ -191,39 +222,74 @@ footer{
 
 @media screen and (max-width:375px){
 	/*Navigation*/
-  header{
-    height: 126px;
-  }
+
   nav{
     display: flex;
     align-content: center;
     justify-content: center;
+	height: 126px;
     width: 375px;
-    height: 176px;
   }
   .menu{
-   display: flex;
-   align-content: flex-end;
-   justify-content: center;
+   position: absolute;
+   z-index: 1;
+   padding: 12px 25px;
+   border: solid 1px red;
    visibility: visible;
-   margin-right: 840px;
-   margin-top: 12px;
+   margin-top: 35px;
+   margin-left: 3px;
   }
-  .navset{
+  .set{
     visibility: hidden;
   }
   .logo{
-    display: flex;
-    align-content: center;
-    justify-content: flex-start;
+    position: absolute;
+	z-index: 1;
+	left: 2%;
+	padding: 40px 10px 10px 25px;
+    border: solid 1px red;
   }
   .images{
-      width: 100%;
-      max-width: 101px;
-      height: 75%;
+     width: 101px;
+	 height: 62px;
   }
-  p{
-   font-size: 14px;
-   font-weight: normal;
-  }
+/*footer stuffs*/
+  footer{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 375px;
+}
+.footerrule{
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 235px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  color: #B8BAC0;
+}
+.copyright{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 235px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: -20px;
+  text-align: center;
+}
+	h6{
+	font-size: 18px;
+	}
+	.footericons{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  margin-right: 210px;
+  padding-top: 75px;
+
+}
 }
